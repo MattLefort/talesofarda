@@ -18,13 +18,15 @@ export default function Home() {
     }
   }
 
-  return (
-    <div className="bg-red-500 text-white p-10">
-      Tailwind CSS is working!
-    </div>
-  );
-}
-    <div className="min-h-screen relative overflow-hidden bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KrLOlRijtL3jm0f4D7EOkCuloFG0iL.png')] bg-cover bg-center bg-no-repeat">
+ return (
+    <>
+      {/* Test Div for Tailwind CSS */}
+      <div className="bg-red-500 text-white p-10">
+        Tailwind CSS is working!
+      </div>
+
+      {/* Main Content with Background Image */}
+      <div className="min-h-screen relative overflow-hidden bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KrLOlRijtL3jm0f4D7EOkCuloFG0iL.png')] bg-cover bg-center bg-no-repeat">
       <div className="relative min-h-screen flex flex-col items-center justify-center p-4">
         <div className="w-full max-w-2xl">
           {!started ? (
