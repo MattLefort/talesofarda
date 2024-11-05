@@ -5,7 +5,7 @@ import { useChat } from 'ai/react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { Sparkles, Send, Trees } from 'lucide-react'
+import { Sparkles, Send } from 'lucide-react'
 
 export default function Component() {
   const [started, setStarted] = useState(false)
@@ -13,7 +13,6 @@ export default function Component() {
 
   return (
     <div className="min-h-screen relative overflow-hidden bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KrLOlRijtL3jm0f4D7EOkCuloFG0iL.png')] bg-cover bg-center bg-no-repeat">
-
       {/* Main Content */}
       <div className="relative min-h-screen flex flex-col items-center justify-center p-4">
         <div className="w-full max-w-2xl">
