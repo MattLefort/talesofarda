@@ -12,9 +12,6 @@ export default function Component() {
   const { messages, input, handleInputChange, handleSubmit } = useChat()
 
   return (
-    <div className="bg-red-500">
-  Test Tailwind CSS
-</div>
     <div className="min-h-screen relative overflow-hidden bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KrLOlRijtL3jm0f4D7EOkCuloFG0iL.png')] bg-cover bg-center bg-no-repeat">
       {/* Main Content */}
       <div className="relative min-h-screen flex flex-col items-center justify-center p-4">
