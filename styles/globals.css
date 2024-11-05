@@ -1,21 +1,25 @@
+/* Import Tailwind's base, components, and utilities */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Custom global styles (optional) */
+html, body {
+  font-family: 'Cinzel', serif; /* Apply default font family */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background, #000); /* Fallback color if background color variable isn't set */
+  color: var(--foreground, #fff); /* Fallback color if foreground color variable isn't set */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: inherit;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+/* Tailwind does not include custom classes like `font-serif`, so you may need to define it */
+.font-serif {
+  font-family: 'Cinzel', serif;
 }
+
+/* You can add other custom global styles here as needed */
