@@ -27,8 +27,8 @@ export default function Home() {
 
       {/* Main Content with Background Image */}
       <div className="min-h-screen relative overflow-hidden bg-[url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-KrLOlRijtL3jm0f4D7EOkCuloFG0iL.png')] bg-cover bg-center bg-no-repeat">
-      <div className="relative min-h-screen flex flex-col items-center justify-center p-4">
-        <div className="w-full max-w-2xl">
+        <div className="relative min-h-screen flex flex-col items-center justify-center p-4">
+          <div className="w-full max-w-2xl">
           {!started ? (
             <div className="p-8 text-center backdrop-blur-sm bg-black/50 rounded-3xl border-2 border-orange-400/50">
               <h1 className="text-5xl font-bold text-orange-400 mb-6 font-serif">
